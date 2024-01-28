@@ -1,0 +1,30 @@
+body {
+    padding: 2em;
+    background: #eee;
+}
+
+.gallery ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.gallery{
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+li {
+    padding: 1em;
+    flex: 0 0 300px;
+    display: flex;
+    align-items: center;
+    border: solid 6px black;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

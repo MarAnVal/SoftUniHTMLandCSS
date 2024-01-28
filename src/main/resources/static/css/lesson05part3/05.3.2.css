@@ -1,0 +1,33 @@
+@import url('./05.3.1.css');
+
+
+header.task-box{
+    display: flex;
+}
+
+.header-nav{
+    flex-grow: 1;
+    display: flex;
+}
+
+.header-nav ul{
+    flex: 1 1 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+nav.header-nav ul li{
+    align-self: flex-end;
+}
+
+@media (max-width: 600px) {
+    header.task-box,
+    .header-nav ul{
+        flex-direction: column;
+    }
+    nav.header-nav ul li{
+        align-self: center;
+    }
+}

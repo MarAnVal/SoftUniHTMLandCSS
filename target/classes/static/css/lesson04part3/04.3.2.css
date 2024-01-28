@@ -1,0 +1,22 @@
+html{
+    font: 18px/1.5 'Helvetica', sans-serif;
+}
+
+section{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    gap: 1em;
+}
+
+h2{
+    font: 2em/1.5 'Georgia', serif;
+}
+
+section > article {
+    padding: 1.5em;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.1em rgb(0,0,0, 0.1);
+    flex: 1 1 20%;
+}

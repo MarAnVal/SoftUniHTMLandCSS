@@ -1,0 +1,40 @@
+
+html {
+    font-family: 'Helvetica', sans-serif;
+    padding: 4em;
+}
+
+header {
+    border-bottom: solid 3px rgb(0, 0, 0, 0.1);
+}
+
+main article h1 {
+    font-style: italic;
+    font-size: 2.2em;
+    font-family: serif;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+nav ul li a{
+    color: lightgreen;
+}
+
+header .site-title {
+    margin-right: 4em;
+}
+
+header .site-title,
+header nav {
+    display: inline-block;
+}
+
+header .site-title a {
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

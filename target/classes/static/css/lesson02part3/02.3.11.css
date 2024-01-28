@@ -1,0 +1,23 @@
+html{
+    font: 16px/0.5 'Helvetica', sans-serif;
+}
+
+table{
+    font-family: Montserrat, sans-serif;
+    padding: 16px;
+}
+
+th{
+    border: solid 1px #ccc;
+    width: 144px;
+    height: 32px;
+    padding-left: 5px;
+    background-color: lightblue;
+}
+
+td{
+    border: solid 1px #ccc;
+    width: 144px;
+    height: 32px;
+    padding-left: 5px;
+}

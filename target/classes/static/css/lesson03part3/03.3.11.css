@@ -1,0 +1,46 @@
+body{
+    font: 1em/1.2 'Georgia', serif;
+    background-color: rgb(238, 238, 238);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    background-color: rgb(0, 153, 0);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.button{
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+    left: 70%;
+}
+
+.card{;
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0 2em 2em rgb(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.description{
+    padding: 2em;
+}
+
+.description p{
+    padding-bottom: 1.5em;
+}

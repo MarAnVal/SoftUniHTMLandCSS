@@ -1,0 +1,28 @@
+
+body {
+    font: 12px/1.2 sans-serif;
+    padding: 1em;
+}
+
+th {
+    background-color: lightblue;
+}
+
+th, td {
+    border: solid 1px #ccc;
+    padding: 1em;
+}
+
+@media (min-width: 800px) {
+    thead {
+        display: none;
+    }
+
+    td:before {
+        display: inline-block;
+        content: attr(data-title) ':';
+        font-weight: bold;
+        padding-right: 1em;
+    }
+}
+
